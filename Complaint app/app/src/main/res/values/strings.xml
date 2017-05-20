@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">final</string>
+    <string name="title_activity_register_complaint">RegisterComplaint</string>
+    <string-array name="districts_array">
+        <item>Attock</item>
+        <item>Bahawalnagar</item>
+        <item>Bahawalpur</item>
+        <item>Bhakkar</item>
+        <item>Chakwal</item>
+        <item>Chiniot</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Faisalabad</item>
+        <item>Gujranwala</item>
+        <item>Gujrat</item>
+        <item>Hafizabad</item>
+        <item>Jhang</item>
+        <item>Jelum</item>
+        <item>Kasur</item>
+        <item>Khanewal</item>
+        <item>Khushab</item>
+        <item>Lahore</item>
+        <item>Layyah</item>
+        <item>Lodhran</item>
+        <item>Mandi Bahauddin</item>
+        <item>Mianwali</item>
+        <item>Multan</item>
+        <item>Muzaffargarh</item>
+        <item>Narowal</item>
+        <item>Nankana Sahib</item>
+        <item>Okara</item>
+        <item>Pakpattan</item>
+        <item>Rahim Yar Khan</item>
+        <item>Rajanpur</item>
+        <item>Rawalpindi</item>
+        <item>Sahiwal</item>
+        <item>Sargodha</item>
+        <item>Shaikupura</item>
+        <item>Sialkot</item>
+        <item>Toba Tek Singh</item>
+        <item>Vehari</item>
+    </string-array>
+
+    <string-array name="categories_array">
+
+        <item>School/education</item>
+        <item>Municipal services</item>
+        <item>Development schemes</item>
+        <item>Road/Streets</item>
+        <item>Health</item>
+    </string-array>
+
+    <string name="atk">Attock</string>
+    <string name="bwngr">Bahawalnagar</string>
+    <string name="bwpur">Bahawalpur</string>
+    <string name="bhkr">Bhakkar</string>
+    <string name="chk">Chakwal</string>
+    <string name="chin">Chiniot</string>
+    <string name="dgk">Dera Ghazi Khan</string>
+    <string name="fsd">Faisalabad</string>
+    <string name="gjw">Gujranwala</string>
+    <string name="gjt">Gujrat</string>
+    <string name="hfd">Hafizabad</string>
+    <string name="jng">Jhang</string>
+    <string name="jhm">Jelum</string>
+    <string name="ksr">Kasur</string>
+    <string name="kwl">Khanewal</string>
+    <string name="ksb">Khushab</string>
+    <string name="lhr">Lahore</string>
+    <string name="lya">Layyah</string>
+    <string name="ldr">Lodhran</string>
+    <string name="mbd">Mandi Bahauddin</string>
+    <string name="mnw">Mianwali</string>
+    <string name="mln">Multan</string>
+    <string name="mzg">Muzaffargarh</string>
+    <string name="nwl">Narowal</string>
+    <string name="nnk">Nankana Sahib</string>
+    <string name="oka">Okara</string>
+    <string name="pkp">Pakpattan</string>
+    <string name="ryk">Rahim Yar Khan</string>
+    <string name="rjp">Rajanpur</string>
+    <string name="rwp">Rawalpindi</string>
+    <string name="shl">Sahiwal</string>
+    <string name="sgd">Sargodha</string>
+    <string name="skp">Shaikupura</string>
+    <string name="skt">Sialkot</string>
+    <string name="tts">Toba Tek Singh</string>
+    <string name="vhr">Vehari</string>
+    <string name="action_settings">Settings</string>
+</resources>

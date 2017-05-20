@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bfff80"
+        android:orientation="vertical"
+        tools:context="www.abasit.com.afinal.RegisterActivity"
+        android:nestedScrollingEnabled="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Citizen's Portal "
+            android:background="#669900"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/banner" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Punjab Citizen Portal"
+            android:id="@+id/textView"
+            android:background="#669944"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff6600"
+                android:text="Register Complaint"
+                android:id="@+id/textView2"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Date/Time"
+                    android:id="@+id/textView3"
+                    android:textColor="#504b4b" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etComplaint_date_time"
+                    android:layout_gravity="center_horizontal"
+                    android:inputType="datetime"
+                    android:editable="true"
+                    android:enabled="false" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Category"
+                    android:textColor="#504b4b"
+                    android:id="@+id/textView4" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spComplaint_category"/>
+               <!-- <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/etComplaint_category"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:enabled="true" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Complaint Details"
+                    android:textColor="#504b4b"
+                    android:id="@+id/textView5" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/etRegister_Complaint_details"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Address of Place"
+                    android:textColor="#504b4b"
+                    android:id="@+id/textView6" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/etComplaint_place_address"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="District"
+                    android:textColor="#504b4b"
+                    android:id="@+id/txtRegComDistrict" />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spComplaint_District"/>
+                <!--                 <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <EditText
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:text="Select District"
+                                        android:inputType="text"
+                                        android:id="@+id/etComplaint_District"
+                                        />
+
+                                   <ImageView
+                                        android:id="@+id/imageView1"
+
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_alignTop="@+id/etRegister_District"
+                                        android:layout_alignBottom="@+id/etRegister_District"
+                                        android:layout_alignRight="@+id/etRegister_District"
+                                        android:src="@drawable/sample"
+                                        android:onClick="ShowDistricts"/>
+                </RelativeLayout>-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Photos"
+                    android:textColor="#504b4b"
+                    android:id="@+id/textView8" />
+               <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="1" />
+                </LinearLayout>-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/image1"
+                        />
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/image2"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Current Location"
+                    android:textColor="#504b4b"
+                    android:id="@+id/textView9" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="current location"
+                    android:inputType="text"
+                    android:id="@+id/etComplaint_location_name"
+                    android:editable="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="2dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Latitude"
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="02123"
+                            android:id="@+id/etComplaint_latitude"
+                            android:editable="true" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="2dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Longitude"
+                            />
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="02123"
+                            android:id="@+id/etCompalint_logitude"
+                            android:editable="true" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#ff6600"
+
+                        android:text="Register"
+                        android:layout_margin="5dp"
+                        android:id="@+id/btnComplaint_Register"
+                        android:layout_weight="1"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#e0e0d1"
+                        android:layout_margin="5dp"
+                        android:text="Back"
+                        android:id="@+id/btnComplaint_Back"
+                        android:layout_weight="1"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

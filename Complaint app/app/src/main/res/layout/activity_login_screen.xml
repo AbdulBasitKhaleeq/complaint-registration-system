@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfff80"
+    tools:context="www.abasit.com.afinal.LoginScreen"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Citizen's Login "
+        android:background="#669900"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/banner" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff6600"
+            android:text="Login to your account"
+            android:id="@+id/textView2"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="244dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="CNIC Number"
+                        android:id="@+id/textView3"
+                        android:textColor="#504b4b" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/etLogin_cnic"
+                        android:hint="3330339456785" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:text="Password"
+                        android:textColor="#504b4b"
+                        android:id="@+id/textView4" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:ems="10"
+                        android:id="@+id/etLoin_password"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff0000"
+                        android:text="Note:  do not submit foolish complaints. Otherwise strict action will be taken!"
+                        android:id="@+id/textView5"
+                        android:layout_gravity="center_horizontal" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#ff6600"
+                        android:padding="10dp"
+                        android:text="log in"
+                        android:id="@+id/btn_login_loginbtn"
+                        android:layout_gravity="center_horizontal" />
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>

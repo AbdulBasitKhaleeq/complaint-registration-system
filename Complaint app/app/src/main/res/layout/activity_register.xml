@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfff80"
+    android:orientation="vertical"
+    tools:context="www.abasit.com.afinal.RegisterActivity"
+    android:nestedScrollingEnabled="true">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Citizen's Portal "
+        android:background="#669900"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/banner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register yourself"
+        android:id="@+id/textView"
+        android:background="#669944"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff6600"
+            android:text="Create Account"
+            android:id="@+id/textView2"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:orientation="vertical"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="NAME"
+                android:id="@+id/textView3"
+                android:textColor="#504b4b" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_Name"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Password"
+                android:textColor="#504b4b"
+                android:id="@+id/textView4" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etRegister_password"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Conform Password"
+                android:textColor="#504b4b"
+                android:id="@+id/textView5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etRegister_password_Conform"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="CNIC Number"
+                android:textColor="#504b4b"
+                android:id="@+id/textView6" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etRegister_CNIC"
+                android:hint="3330339456785"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="District"
+                android:textColor="#504b4b"
+                android:id="@+id/textView7" />
+<Spinner
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select District"
+    android:id="@+id/etRegister_District"
+    />
+          <!--  <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                 android:text="Select District"
+                 android:id="@+id/etRegister_District"
+                />
+
+                <ImageButton
+                    android:id="@+id/RegisterDistrictImgButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/etRegister_District"
+                    android:layout_alignBottom="@+id/etRegister_District"
+                    android:layout_alignRight="@+id/etRegister_District"
+                    android:background="@drawable/sample"
+                    />
+            </RelativeLayout>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Mobile Number"
+                android:textColor="#504b4b"
+                android:id="@+id/textView8" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etRegisterMobileNumber"
+                android:hint="03351758820" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="E_Mail Address"
+                android:textColor="#504b4b"
+                android:id="@+id/textView9" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etRegister_Email"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff6600"
+                android:padding="10dp"
+                android:text="Register"
+                android:id="@+id/btnRegister_register"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
